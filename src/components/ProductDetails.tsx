@@ -27,7 +27,7 @@ export const ProductDetails = ({ product }: ProductDetailsProps) => {
                   name="id"
                   value={product.id}
                   className={`${isAvailable ? "text-black" : "text-red-600"} 
-                  text-white rounded-lg w-full p-2 uppercase font-bold text-xs text-center border border-black-100
+                  rounded-lg w-full p-2 uppercase font-bold text-xs text-center border border-black-100
                   hover:cursor-pointer`}
                >
                   { isAvailable ? "Disponible" : "No disponible" }
